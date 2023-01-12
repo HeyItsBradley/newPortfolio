@@ -24,3 +24,8 @@ footer {
   position: fixed;
   bottom: 0px;
 }
+
+img {
+  max-width: 100rem;
+  border-radius: 10rem;
+}
