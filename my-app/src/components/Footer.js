@@ -4,11 +4,11 @@ function Footer() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <footer className="text-center text-white bg-dark col-lg-12">
-          <div className="container pt-4">
-            <section className="mb-4">
+        <footer className="align-items-center text-center text-white bg-dark col-lg-12 pt-2">
+          <div className="container">
+            <section className="mb-2">
               <a
-                className="btn btn-link btn-floating btn-lg text-light m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1 font-link"
                 href="#"
                 role="button"
                 data-mdb-ripple-collor="light"
@@ -16,7 +16,7 @@ function Footer() {
                 <h3>GitHub</h3>
               </a>
               <a
-                className="btn btn-link btn-floating btn-lg text-light m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1 font-link"
                 href="#"
                 role="button"
                 data-mdb-ripple-collor="light"
@@ -24,7 +24,7 @@ function Footer() {
                 <h3>LinkedIn</h3>
               </a>
               <a
-                className="btn btn-link btn-floating btn-lg text-light m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1 font-link"
                 href="#"
                 role="button"
                 data-mdb-ripple-collor="light"

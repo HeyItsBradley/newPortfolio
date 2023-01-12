@@ -2,6 +2,7 @@ import React from "react";
 
 function LandingPage() {
   return (
+    
     <div className="p-5">
       <div className="container-fluid mt-5 p-5">
         <div className="row justify-content-center text-center mt-5 pb-5">

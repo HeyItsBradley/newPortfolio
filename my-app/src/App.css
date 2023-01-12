@@ -17,7 +17,7 @@ footer {
 }
 
 .font-link {
-  font-family: "Kanit", sans-serif;
+  font-family: "Kanit", sans-serif !important;
 }
 
 footer {
