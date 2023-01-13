@@ -29,3 +29,7 @@ footer {
   max-width: 100rem;
   border-radius: 10rem;
 }
+
+.project:hover {
+  opacity: 0.8 !important;
+}
