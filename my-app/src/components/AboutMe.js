@@ -6,7 +6,7 @@ function AboutMe() {
     <div className="container-fluid">
       <div className="row text-light text-center mt-5 ">
         <div className="col-lg-6 px-5">
-          <img className="col-lg-2 mt-5" src={pfp} alt="Pfp"></img>
+          <img className="col-lg-2 mt-5 pfp" src={pfp} alt="Pfp"></img>
           <h2 className=" mt-5 px-5 font-link">
             Hi ! I'm Bradley, I am a full stack Developer lookings for
             opportunities in the tech industry. I have completed a Full Stack

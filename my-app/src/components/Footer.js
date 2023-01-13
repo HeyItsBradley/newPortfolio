@@ -13,6 +13,7 @@ function Footer() {
                 role="button"
                 data-mdb-ripple-collor="light"
                 target="_blank"
+                rel="noreferrer"
               >
                 <h3>GitHub</h3>
               </a>
@@ -20,6 +21,7 @@ function Footer() {
                 className="btn btn-link btn-floating btn-lg text-light m-1 font-link"
                 href="https://www.linkedin.com/in/bradley-rodriguez-766553193/"
                 role="button"
+                rel="noreferrer"
                 data-mdb-ripple-collor="light"
                 target="_blank"
               >
@@ -27,7 +29,8 @@ function Footer() {
               </a>
               <a
                 className="btn btn-link btn-floating btn-lg text-light m-1 font-link"
-                href="#"
+                href="mailto: bradleyrodriguez77@gmail.com"
+                rel="noreferrer"
                 role="button"
                 data-mdb-ripple-collor="light"
                 target="_blank"
