@@ -5,7 +5,10 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
       <div className="container-fluid">
-        <Link className="navbar-brand text-light font-link" to={`/`}>
+        <Link
+          className="navbar-brand text-light font-link"
+          to={`/newPortfolio`}
+        >
           Bradley Rodriguez
         </Link>
 
@@ -14,7 +17,7 @@ function NavBar() {
             <Link
               className="nav-link active text-light font-link navLink"
               aria-current="page"
-              to={`/aboutMe`}
+              to={`/newPortfolio/aboutMe`}
             >
               About Me
             </Link>
@@ -22,13 +25,16 @@ function NavBar() {
           <li className="nav-item navLink">
             <Link
               className="nav-link active text-light font-link"
-              to={`/projects`}
+              to={`/newPortfolio/projects`}
             >
               Projects
             </Link>
           </li>
           <li className="nav-item navLink">
-            <Link className="nav-link text-light font-link" to={`/contactMe`}>
+            <Link
+              className="nav-link text-light font-link"
+              to={`/newPortfolio/contactMe`}
+            >
               Contact Me
             </Link>
           </li>
