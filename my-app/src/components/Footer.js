@@ -9,17 +9,19 @@ function Footer() {
             <section className="mb-2">
               <a
                 className="btn btn-link btn-floating btn-lg text-light m-1 font-link"
-                href="#"
+                href="https://github.com/HeyItsBradley"
                 role="button"
                 data-mdb-ripple-collor="light"
+                target="_blank"
               >
                 <h3>GitHub</h3>
               </a>
               <a
                 className="btn btn-link btn-floating btn-lg text-light m-1 font-link"
-                href="#"
+                href="https://www.linkedin.com/in/bradley-rodriguez-766553193/"
                 role="button"
                 data-mdb-ripple-collor="light"
+                target="_blank"
               >
                 <h3>LinkedIn</h3>
               </a>
@@ -28,6 +30,7 @@ function Footer() {
                 href="#"
                 role="button"
                 data-mdb-ripple-collor="light"
+                target="_blank"
               >
                 <h3>Email</h3>
               </a>

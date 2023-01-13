@@ -1,32 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand text-light font-link" href="#">
+        <Link class="navbar-brand text-light font-link" to={`/`}>
           Bradley Rodriguez
-        </a>
+        </Link>
 
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a
+            <Link
               class="nav-link active text-light font-link"
               aria-current="page"
-              href="#"
+              to={`/aboutMe`}
             >
               About Me
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light font-link" href="#">
+            <Link class="nav-link active text-light font-link" to={`/projects`}>
               Projects
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light font-link" href="#">
+            <Link class="nav-link text-light font-link" to={`/contactMe`}>
               Contact Me
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
