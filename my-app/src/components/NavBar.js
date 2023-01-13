@@ -3,29 +3,32 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
-      <div class="container-fluid">
-        <Link class="navbar-brand text-light font-link" to={`/`}>
+    <nav className="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
+      <div className="container-fluid">
+        <Link className="navbar-brand text-light font-link" to={`/`}>
           Bradley Rodriguez
         </Link>
 
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
+        <ul className="nav justify-content-end">
+          <li className="nav-item">
             <Link
-              class="nav-link active text-light font-link navLink"
+              className="nav-link active text-light font-link navLink"
               aria-current="page"
               to={`/aboutMe`}
             >
               About Me
             </Link>
           </li>
-          <li class="nav-item navLink">
-            <Link class="nav-link active text-light font-link" to={`/projects`}>
+          <li className="nav-item navLink">
+            <Link
+              className="nav-link active text-light font-link"
+              to={`/projects`}
+            >
               Projects
             </Link>
           </li>
-          <li class="nav-item navLink">
-            <Link class="nav-link text-light font-link" to={`/contactMe`}>
+          <li className="nav-item navLink">
+            <Link className="nav-link text-light font-link" to={`/contactMe`}>
               Contact Me
             </Link>
           </li>
