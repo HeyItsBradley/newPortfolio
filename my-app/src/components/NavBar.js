@@ -12,19 +12,19 @@ function NavBar() {
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <Link
-              class="nav-link active text-light font-link"
+              class="nav-link active text-light font-link navLink"
               aria-current="page"
               to={`/aboutMe`}
             >
               About Me
             </Link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item navLink">
             <Link class="nav-link active text-light font-link" to={`/projects`}>
               Projects
             </Link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item navLink">
             <Link class="nav-link text-light font-link" to={`/contactMe`}>
               Contact Me
             </Link>

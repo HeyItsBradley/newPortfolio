@@ -33,3 +33,7 @@ footer {
 .project:hover {
   opacity: 0.8 !important;
 }
+
+.navLink:hover {
+  text-shadow: 0 0 5px #c9caca !important;
+}
