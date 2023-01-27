@@ -11,11 +11,12 @@ import Project from "./components/Project";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <NavBar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+
           <Route path="/aboutMe" element={<AboutMe />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/contactMe" element={<ContactMe />} />
